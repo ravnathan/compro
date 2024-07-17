@@ -10,7 +10,7 @@ export default function Culture() {
                 </p>
                 <Image src={"/workspace2.jpg"} width={380} height={400} alt="DeTea workspace" className="mx-auto lg:mx-20 py-10"/>
             </div>
-            <div className="py-12 flex-row gap-10 lg:flex bg-base-200">
+            <div className="py-12 flex-row gap-10 lg:flex bg-white text-black">
                 <Image src={"/farmer1.jpg"} width={380} height={380} alt="DeTea workspace2" className="mx-auto lg:mx-20 py-10"/>
                 <p className="text-center my-auto px-10">We value our connections to local farmers, with those bonds we forged along the way, 
                     we have invaluable network that would work as a medium to both benefit us and benefit 
@@ -25,9 +25,9 @@ export default function Culture() {
                 </p>
                 <Image src={"/workspace4.jpg"} width={380} height={300} alt="DeTea marketing" className="mx-auto lg:mx-20 py-10"/>
             </div>
-            <div className="py-24 flex-row gap-10 lg:flex bg-base-200 mx-20">
+            <div className="py-24 flex-row gap-10 lg:flex bg-white text-black">
                 <Image src={"/workspace1.jpg"} width={340} height={300} alt="DeTea team1" className="mx-auto lg:mx-20 py-10"/>
-                <p className="text-center my-auto">No matter what kind of background our workers have, they are always welcome to join us. 
+                <p className="text-center my-auto px-10">No matter what kind of background our workers have, they are always welcome to join us. 
                     We always want to work with people who want to make a positive change to the community 
                     no matter how minor it is.
                 </p>

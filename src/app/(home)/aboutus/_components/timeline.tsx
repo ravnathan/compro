@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Timeline() {
     return (
-    <div>    
+    <div className="text-black">    
         <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical px-10">
             <li>
                 <div className="timeline-middle">

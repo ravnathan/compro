@@ -5,7 +5,7 @@ import { gel } from "./font"
 
 export default function Overview() {
     return (
-        <div className="hero bg-base-200 min-h-screen text-white rounded-xxl">
+        <div className="hero bg-white min-h-screen text-black rounded-xxl">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <Image src={"/meold.jpg"} width={220} height={380} alt="DeTea Founder" className="rounded-xxl border-4 border-white"/>
                 <div>
