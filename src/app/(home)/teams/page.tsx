@@ -3,9 +3,9 @@ import { arch } from "@/components/font";
 
 export default function Teams() {
     return (
-        <div>
+        <div className="bg-white">
             <div className={arch.className}>
-                <h1 className="text-center text-6xl text-white py-8">Our teams</h1>
+                <h1 className="text-center text-6xl text-black py-8">Our teams</h1>
             </div>
             <TeamCards />
         </div>

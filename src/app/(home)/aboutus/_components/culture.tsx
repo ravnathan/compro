@@ -4,7 +4,7 @@ export default function Culture() {
     return (
         <div className="pt-48">
             <div className="pt-24 flex-row gap-20 lg:flex bg-green-950">
-                <p className="text-center my-auto px-10">With our mission to spread joy and happiness from a cup of relaxing tea, 
+                <p className="text-center my-auto px-10 text-white">With our mission to spread joy and happiness from a cup of relaxing tea, 
                    it applies just the same for our workspaces. We can&apos;t spread joy to the outside 
                    if we are not happy on the inside. Tension-free workplaces is what we are aiming for. 
                 </p>
@@ -19,7 +19,7 @@ export default function Culture() {
                 </p>
             </div>
             <div className="py-12 flex-row gap-10 lg:flex bg-green-950">
-                <p className="text-center my-auto px-10">To reach places that used to be difficult, we relied on the experts to market all of 
+                <p className="text-center my-auto px-10 text-white">To reach places that used to be difficult, we relied on the experts to market all of 
                     our products away up to South Africa and Indonesia, the idea that used to be difficult 
                     to execute due to how far it is from our HQ, Switzerland.
                 </p>
