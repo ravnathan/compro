@@ -15,9 +15,7 @@ interface IUser {
 
 export default async function TeamCards() {
 
-        const res = await fetch('https://randomuser.me/api/?results=10', {
-            cache: "no-cache"
-        })
+        const res = await fetch('https://randomuser.me/api/?results=10')
         const data = await res.json()
 
     
