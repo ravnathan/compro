@@ -28,7 +28,7 @@ export default async function TeamCards() {
 
     return (
         <main>
-            {data.results.map((item : any, idx: any) => (
+            {data.results.map((item : IUser, idx: number) => (
                 <div className="flex flex-wrap justify-center gap-7 pb-7 lg:inline-flex lg:p-7" key={item.email}>
                     <div className="card card-compact bg-green-950 w-[280px] text-white shadow-xl">
                         <figure>
