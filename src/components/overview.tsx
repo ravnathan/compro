@@ -7,7 +7,7 @@ export default function Overview() {
     return (
         <div className="hero bg-white min-h-screen text-black rounded-xxl">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <Image src={"/meold.jpg"} width={220} height={380} alt="DeTea Founder" className="rounded-xxl border-4 border-white"/>
+                <Image src={"/meold.jpg"} width={220} height={380} alt="DeTea Founder" className="rounded-xxl border-4 border-green-950"/>
                 <div>
                     <h1 className="text-5xl font-bold text-center">Est. 1947</h1>
                     <div className={gel.className}>
@@ -23,7 +23,7 @@ export default function Overview() {
                         </p>
                     </div>
                 </div>
-                <Image src={"/mewife.jpg"} width={300} height={380} alt="DeTea Founder" className="rounded-xxl border-4 border-white sm:w-[220px]"/>
+                <Image src={"/mewife.jpg"} width={300} height={380} alt="DeTea Founder" className="rounded-xxl border-4 border-green-950 sm:w-[220px]"/>
             </div>
         </div>
     )

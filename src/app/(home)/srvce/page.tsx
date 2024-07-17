@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Fetching from "./_components/fetching";
 import { arch } from "@/components/font";
+import Testi from "./_components/testi";
 
 export default function Services() {
     return (
@@ -12,6 +13,7 @@ export default function Services() {
             <div className="bg-base-200 rounded-xxl">
                 <Fetching />
             </div>
+            <Testi/>
         </div>
 
     )
