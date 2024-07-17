@@ -1,5 +1,11 @@
+import { Metadata } from "next";
 import TeamCards from "./_components/teamcards";
 import { arch } from "@/components/font";
+
+export const metadata : Metadata = {
+    title: "Teams",
+    description: "Our teams"
+}
 
 export default function Teams() {
     return (

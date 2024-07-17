@@ -2,6 +2,12 @@ import Image from "next/image";
 import Fetching from "./_components/fetching";
 import { arch } from "@/components/font";
 import Testi from "./_components/testi";
+import { Metadata } from "next";
+
+export const metadata : Metadata = {
+    title: "Service",
+    description: "DeTea products and services"
+}
 
 export default function Services() {
     return (
