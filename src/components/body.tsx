@@ -19,7 +19,7 @@ export default function Body() {
             <div className="pt-20">
                 <div className="bg-white rounded-xxl pb-20">
                     <div className={arch.className}>
-                        <h1 className="text-center py-16 text-black text-5xl sm:text-3xl">What we offer</h1>
+                        <h1 className="text-center py-16 text-black text-5xl sm:text-2xl">What we offer</h1>
                     </div>
                     <Services />
                 </div>
