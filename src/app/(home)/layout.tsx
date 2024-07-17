@@ -7,7 +7,10 @@ import Footer from "@/components/footer";
 
 export const metadata: Metadata = {
   title: "DeTea",
-  description: "Happiness can simply come from your own cup",
+  openGraph: {
+    title: "DeTea",
+    description: "Happiness can simply come from your own cup",
+  }
 };
 
 export default function RootLayout({
