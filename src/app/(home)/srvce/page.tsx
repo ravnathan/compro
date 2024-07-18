@@ -11,10 +11,10 @@ export const metadata : Metadata = {
 
 export default function Services() {
     return (
-        <div >
-            <Image src={'/teacup1.jpg'} className="w-screen h-[200px] object-cover" width={700} height={200} alt="Teacup header" />
+        <div className="bg-green-950">
+            <Image src={'/greendetea.svg'} className="mx-auto object-cover bg-green-950" width={500} height={200} alt="Teacup header" />
             <div className={arch.className}>
-                <h1 className="text-4xl text-center bg-green-950 text-white pt-7">Our products & services</h1>
+                <h1 className="text-4xl text-center text-white">Our products & services</h1>
             </div>
             <div className="bg-base-200 rounded-xxl">
                 <Fetching />
