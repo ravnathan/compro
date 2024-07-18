@@ -94,7 +94,7 @@ export default function Testi() {
                         just that. They host events, support local artists, and truly embody the spirit of a
                         neighborhood hub.&quot;
                         <p className="text-right">
-                            -Maulana Syahjhad
+                            -Maulana Syahjihad
                         </p>
                     </div>
                 </div>
